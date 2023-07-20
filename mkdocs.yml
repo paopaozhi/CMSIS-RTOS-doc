@@ -3,7 +3,7 @@ site_name: CMSIS-RTOS-ZH
 site_author: 花花
 site_description: CMSIS-RTOS文档翻译和代码示例
 copyright: MIT
-# repo_url: 站点仓库 URL
+repo_url: https://github.com/paopaozhi/CMSIS-RTOS-doc.git
 
 theme:
   name: material
