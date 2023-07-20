@@ -1,0 +1,27 @@
+site_name: CMSIS-RTOS-ZH
+# site_url: "http://<domain>:<port>/<project>"
+site_author: 花花
+site_description: CMSIS-RTOS文档翻译和代码示例
+copyright: MIT
+# repo_url: 站点仓库 URL
+
+theme:
+  name: material
+
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+
+nav:
+  - Home: "../"
+  - "Blog":
+      - "CMSIS-V2": "线程管理.md"
+
+# markdown_extensions:
+#   - toc:
+#     permalink: True
+#   - footnotes
+#   - tables
